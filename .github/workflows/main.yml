@@ -16,6 +16,6 @@ jobs:
       - name: Scripts
         run: |
           docker build -t app .
-          docker login -u sudhirsonawane5 -p dckr_pat_y17oTOubREm2JIXnx9sfX5N5qew
+          docker login -u sudhirsonawane5 -p dckr_pat_sO7NBhcuUGd5Ob1vnuOCjn6JZRo
           docker tag app sudhirsonawane5/dockerhub-connection
           docker push sudhirsonawane5/dockerhub-connection
