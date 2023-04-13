@@ -1,6 +1,5 @@
 name: ci/cd deployment
 
-
 on:
   push:
     branches:
